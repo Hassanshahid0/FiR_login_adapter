@@ -1,6 +1,6 @@
 # FiR_login_adapter
 
-Step 1. Add the JitPack repository to your build file
+>Step 1. Add the JitPack repository to your build file
 
 ...gradle
 allprojects {
