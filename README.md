@@ -6,11 +6,13 @@
 
 ## Instruction
 
-##Setting.Gradel
+## Setting.Gradel
+```bash
+
+```
 
 
-
-##Gradel
+## Gradel
 
 ```bash
 dependencies {
