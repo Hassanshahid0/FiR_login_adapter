@@ -8,15 +8,16 @@
 
 ## Setting.Gradel
 ```bash
-
+  repositories {
+	         maven { url 'https://jitpack.io' }
+	       }
 ```
-
 
 ## Gradel
 
 ```bash
 dependencies {
 	        implementation 'com.github.L1F20BSCS0169:FiR_login_adapter:Tag'
-	}
+	     }
 ```
 
