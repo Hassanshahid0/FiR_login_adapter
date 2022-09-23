@@ -6,7 +6,11 @@
 
 ## Instruction
 
-Gradel
+##Setting.Gradel
+
+
+
+##Gradel
 
 ```bash
 dependencies {
