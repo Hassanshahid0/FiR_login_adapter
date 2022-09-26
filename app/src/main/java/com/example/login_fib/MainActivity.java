@@ -15,24 +15,25 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        startActivity(new Intent(MainActivity.this, Login.class));
+        finish();
         //-------------------Firebase Auth---------------------??
         FirebaseAuth mauth = FirebaseAuth.getInstance();
         FirebaseUser user = mauth.getCurrentUser();
 
         //-------------------Splash Screen-------------------??
 
-        new Handler().postDelayed(() -> {
+        /*new Handler().postDelayed(() -> {
             // This method will be executed once the timer is over
             if (user != null) {
-                startActivity(new Intent(MainActivity.this, Login.class));
-                finish();
+
             } else {
                 Intent i = new Intent(MainActivity.this, Registration.class);
                 startActivity(i);
                 finish();
             }
 
-        }, 1000);
+        }, 1000);*/
 
     }
 

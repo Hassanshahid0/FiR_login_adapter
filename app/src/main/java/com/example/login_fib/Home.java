@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity {
 
@@ -15,7 +14,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-       signout();
+
 
     }
 }

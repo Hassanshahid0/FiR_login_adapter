@@ -3,7 +3,6 @@ package com.example.login_fib;
 import static com.example.login_fir.login.Email_Alert_mESS;
 import static com.example.login_fir.login.FIB_Register;
 import static com.example.login_fir.login.Pass_Alter_mEss;
-import static com.example.login_fir.login.login_state;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -41,10 +40,7 @@ public class Registration extends AppCompatActivity {
 
 
         //--------------------------Home-Activity--------------??
-        if(login_state())
-        {
-            startActivity(new Intent(Registration.this, Home.class));
-        }
+
 
 
     }

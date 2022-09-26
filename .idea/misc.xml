@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/login_FiB/Login_FiR/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/login_FiB/app/src/main/res/drawable/background.xml" value="0.181" />
+        <entry key="..\:/login_FiB/app/src/main/res/drawable/color.xml" value="0.181" />
+        <entry key="..\:/login_FiB/app/src/main/res/drawable/roundcorner.xml" value="0.181" />
         <entry key="..\:/login_FiB/app/src/main/res/layout/activity_home.xml" value="0.18541666666666667" />
-        <entry key="..\:/login_FiB/app/src/main/res/layout/activity_login.xml" value="0.18541666666666667" />
+        <entry key="..\:/login_FiB/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/login_FiB/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
         <entry key="..\:/login_FiB/app/src/main/res/layout/activity_registration.xml" value="0.19947916666666668" />
       </map>

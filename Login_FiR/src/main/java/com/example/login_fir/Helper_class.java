@@ -2,7 +2,7 @@ package com.example.login_fir;
 
 public class Helper_class{
 
-   private static boolean  hold;
+   public static int login_value=1;
   private static String Altermessage_Email;
   private static String AlterMessage_password;
 
@@ -14,16 +14,12 @@ public class Helper_class{
         Altermessage_Email = altermessage_Email;
     }
 
-    public static void setHold(boolean hold) {
-        Helper_class.hold = hold;
+    public static int getLogin_value() {
+        return login_value;
     }
 
-    public static void setlogin(boolean b) {
-        hold=b;
-    }
-
-    public static boolean isHold() {
-        return hold;
+    public static void setLogin_value(int login_value) {
+        Helper_class.login_value = login_value;
     }
 
     public static String getAlterMessage_password() {

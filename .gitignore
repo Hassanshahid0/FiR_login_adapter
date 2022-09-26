@@ -85,7 +85,6 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 =======
-*.iml
 .gradle
 /local.properties
 /.idea/caches
@@ -97,7 +96,5 @@ lint/tmp/
 .DS_Store
 /build
 /captures
-.externalNativeBuild
 .cxx
-local.properties
 >>>>>>> b687469 (Firebase_login)
