@@ -38,7 +38,7 @@ Library provides set of static methods:
 Sign In with Email and Password
 
 ```bash
-  signinwithemailandpoassword
+### signinwithemailandpoassword
                 (emailTextInput       // Edittext Email
                 ,passTextInput,       // Edittext password
                 sign_button,          // Button
