@@ -33,6 +33,20 @@ Library provides set of static methods:
 * Roles-based Authorization
 * Social Logins with Google, Facebook and Twitter
 
+## Documentation
+
+Sign In with Email and Password
+
+```bash
+  signinwithemailandpoassword
+                (emailTextInput       // Edittext Email
+                ,passTextInput,       // Edittext password
+                sign_button,          // Button
+                this,                 // Context
+                Firebaseauth,         // Authentication referance
+                intent);              // Activity referance
+```
+
 ## How to use
 
 ```bash
@@ -60,18 +74,6 @@ Library provides set of static methods:
 
 
 
-## Documentation
 
-Sign In with Email and Password
-
-```bash
-  signinwithemailandpoassword
-                (emailTextInput       // Edittext Email
-                ,passTextInput,       // Edittext password
-                sign_button,          // Button
-                this,                 // Context
-                Firebaseauth,         // Authentication referance
-                intent);              // Activity referance
-```
 
 
