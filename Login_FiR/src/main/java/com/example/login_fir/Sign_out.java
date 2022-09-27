@@ -52,7 +52,7 @@ public class Sign_out {
 
     public static void Forget_Password(EditText Email,String message,Context context,FirebaseAuth mauth)
     {
-        String email = Email.getText().toString().trim();
+        /*String email = Email.getText().toString().trim();
       mauth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
           @Override
           public void onComplete(@NonNull Task<Void> task) {
@@ -65,7 +65,7 @@ public class Sign_out {
                   return;
               }
           }
-      });
+      });*/
     }
 
     public static void text_span(TextView textView, String Message,int start_span,int end_span, Context context, Intent intent)
