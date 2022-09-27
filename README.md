@@ -2,7 +2,7 @@
 
 # Firebase Authentication
 
-[![](https://jitpack.io/v/L1F20BSCS0169/FiR_login_adapter.svg)](https://jitpack.io/#L1F20BSCS0169/FiR_login_adapter)
+
 
 ## Installation
 
@@ -161,7 +161,11 @@ Sign In with Email and Password
 </RelativeLayout>
 ```
 
+# Screenshots
 
+![sign in](https://user-images.githubusercontent.com/106225281/192549196-255cc076-8182-4634-9853-f52e1b8f8a6c.jpeg)
+![Email](https://user-images.githubusercontent.com/106225281/192548970-9b7eb8e7-1cb2-49d9-ad09-4d19bc003b40.jpeg)
+![password](https://user-images.githubusercontent.com/106225281/192549140-86322ed9-312e-4e6a-897a-bd0f295a902f.jpeg)
 
 
 
