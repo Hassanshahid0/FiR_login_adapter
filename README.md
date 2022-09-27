@@ -16,7 +16,7 @@ Install my-project with Gradel
 ```bash
   dependencies 
          {
-	        implementation 'com.github.L1F20BSCS0169:FiR_login_adapter:Tag'
+	        implementation 'com.github.L1F20BSCS0169:FiR_login_adapter:0.1.6.92'
 	     }
 ```
     
