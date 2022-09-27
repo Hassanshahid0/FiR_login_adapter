@@ -36,7 +36,7 @@ Library provides set of static methods:
 
 ## Documentation
 
-Sign In with Email and Password
+### Sign In with Email and Password
 
 ```bash
   signinwithemailandpoassword
@@ -166,7 +166,17 @@ Sign In with Email and Password
 <img src="https://user-images.githubusercontent.com/106225281/192549196-255cc076-8182-4634-9853-f52e1b8f8a6c.jpeg" width="200" height="400"> <img src="https://user-images.githubusercontent.com/106225281/192557821-3cce30d7-9a8e-4121-a558-6c3ca639f132.jpeg" width="200" height="400"> <img src="https://user-images.githubusercontent.com/106225281/192555273-ae7d69e0-f45b-4aaa-9ebe-35b7c66b1f60.jpeg" width="200" height="400"> 
 
 
+### Sign In with Email and Password
 
+```bash
+  signinwithemailandpoassword
+                (emailTextInput       // Edittext Email
+                ,passTextInput,       // Edittext password
+                sign_button,          // Button
+                this,                 // Context
+                Firebaseauth,         // Authentication referance
+                intent);              // Activity referance
+```
 
 
 
