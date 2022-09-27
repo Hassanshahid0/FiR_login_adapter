@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class login {
 
-    public static void FIB_login(EditText Email, EditText Password, Button sign_in, Context loginn, FirebaseAuth mauth,Intent intent) {
+    public static void signinwithemailandpoassword(EditText Email, EditText Password, Button sign_in, Context loginn, FirebaseAuth mauth,Intent intent) {
 
 
         sign_in.setOnClickListener(view -> {

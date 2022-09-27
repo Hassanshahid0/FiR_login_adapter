@@ -1,18 +1,11 @@
 package com.example.login_fib;
 
-import static com.example.login_fir.Sign_out.Forget_Password;
 import static com.example.login_fir.Sign_out.text_span;
 import static com.example.login_fir.login.Email_Alert_Login;
-import static com.example.login_fir.login.FIB_login;
 import static com.example.login_fir.login.Pass_Alter_Login;
-
+import static com.example.login_fir.login.signinwithemailandpoassword;
 import androidx.appcompat.app.AppCompatActivity;
-
-
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
     EditText emailTextInput,passTextInput;
-    TextView signup,Forget;
+    TextView signup;
     FirebaseAuth Firebaseauth;
     Button sign_button;
     @Override
@@ -36,7 +29,6 @@ public class Login extends AppCompatActivity {
         passTextInput=(EditText) findViewById(R.id.password_login);
         sign_button=(Button)findViewById(R.id.sign);
         signup=findViewById(R.id.signuppage);
-        Forget=findViewById(R.id.forget);
         Firebaseauth= FirebaseAuth.getInstance();
 
          //--------------------------Home-Activity--------------??
@@ -44,7 +36,8 @@ public class Login extends AppCompatActivity {
 
         //--------------------------FireBase-Login-Library --------------??
 
-        FIB_login(emailTextInput
+        signinwithemailandpoassword
+                (emailTextInput
                 ,passTextInput,
                 sign_button,
                 this,
@@ -64,18 +57,5 @@ public class Login extends AppCompatActivity {
                 30,
                 this,
                 intent_span);
-
-
-        //--------------------------Forget-password--------------??
-        Forget_Password(emailTextInput,
-                "Check your email",
-                this,
-                Firebaseauth);
-
-
-
-
     }
-
-
 }
