@@ -71,7 +71,7 @@ Sign In with Email and Password
 		Pass_Alter_Login("please Enter password");
 ```
 
-
+Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f
 
 
 
