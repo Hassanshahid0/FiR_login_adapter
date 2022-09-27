@@ -6,7 +6,7 @@
 
 ## Installation
 
-Install my-project with Gradel
+ Gradel
 
 ```bash
   repositories {
