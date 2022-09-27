@@ -52,8 +52,8 @@ public class Sign_out {
 
     public static void Forget_Password(EditText Email,String message,Context context,FirebaseAuth mauth)
     {
-        /*String email = Email.getText().toString().trim();
-      mauth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
+        String email = Email.getText().toString().trim();
+      /*mauth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
           @Override
           public void onComplete(@NonNull Task<Void> task) {
               if(task.isSuccessful())
@@ -66,6 +66,15 @@ public class Sign_out {
               }
           }
       });*/
+        mauth.sendPasswordResetEmail(email)
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(context, "send!!", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
     }
 
     public static void text_span(TextView textView, String Message,int start_span,int end_span, Context context, Intent intent)

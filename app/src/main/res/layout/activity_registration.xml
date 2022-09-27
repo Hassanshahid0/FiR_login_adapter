@@ -74,8 +74,6 @@
             android:text="@string/sign_up"
             android:textColor="#121111"
             android:textSize="15sp" />
-
-
     </LinearLayout>
 
 

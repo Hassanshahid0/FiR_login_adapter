@@ -60,7 +60,7 @@ public class Login extends AppCompatActivity {
         Intent intent_span=new Intent(this,Registration.class);
         text_span(signup,
                 "Don't have an account? Sign up",
-                25,
+                23,
                 30,
                 this,
                 intent_span);

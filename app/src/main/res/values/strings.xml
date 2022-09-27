@@ -3,4 +3,6 @@
     <string name="email">email</string>
     <string name="password">password</string>
     <string name="sign_up">sign_up</string>
+    <string name="sign_in">sign_in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
 </resources>
