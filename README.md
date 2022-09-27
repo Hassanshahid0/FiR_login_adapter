@@ -33,6 +33,32 @@ Library provides set of static methods:
 * Roles-based Authorization
 * Social Logins with Google, Facebook and Twitter
 
+## How to use
+
+```bash
+        //--------------------------FireBase Auth--------------??
+         	 Firebaseauth= FirebaseAuth.getInstance();
+
+        //--------------------------Home-Activity--------------??
+          	Intent intent=new Intent(this,Home.class);
+
+        //--------------------------FireBase-Login-Library --------------??
+		signinwithemailandpoassword
+			(emailTextInput
+			,passTextInput,
+			sign_button,
+			this,
+			Firebaseauth,
+			intent);
+
+        //--------------------------Set-negvigation-Alter-message
+
+		Email_Alert_Login("please Enter Email");
+		Pass_Alter_Login("please Enter password");
+```
+
+
+
 
 ## Documentation
 
