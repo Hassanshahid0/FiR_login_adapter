@@ -6,20 +6,50 @@
 
 ## Instruction
 
-## Setting.Gradel
+
+## Installation
+
+Install my-project with Gradel
+
 ```bash
   repositories {
-	         maven {
-                         url 'https://jitpack.io' 
-                        }
-	       }
+	              maven{ url 'https://jitpack.io' }
+	            }
 ```
-
-## Gradel
-
 ```bash
-dependencies {
+  dependencies 
+         {
 	        implementation 'com.github.L1F20BSCS0169:FiR_login_adapter:Tag'
 	     }
 ```
+    
+## Usage
+
+Library provides set of static methods:
+
+* Sign In
+* Sign Up
+* Sign Out
+* Password Forget
+* Password Change
+* Verification Email
+* Protected Routes with Authorization
+* Roles-based Authorization
+* Social Logins with Google, Facebook and Twitter
+
+
+## Documentation
+
+Sign In with Email and Password
+
+```bash
+  signinwithemailandpoassword
+                (emailTextInput       // Edittext Email
+                ,passTextInput,       // Edittext password
+                sign_button,          // Button
+                this,                 // Context
+                Firebaseauth,         // Authentication referance
+                intent);              // Activity referance
+```
+
 
