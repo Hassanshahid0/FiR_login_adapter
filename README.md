@@ -49,6 +49,7 @@ Sign In with Email and Password
 
 ## How to use
 
+### java file
 ```bash
         //--------------------------FireBase Auth--------------??
          	 Firebaseauth= FirebaseAuth.getInstance();
@@ -71,7 +72,93 @@ Sign In with Email and Password
 		Pass_Alter_Login("please Enter password");
 ```
 
+### XML File
+```bash
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:maxHeight="13dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="?actionBarSize"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#63C9BB"
+            android:text="Sign in"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:id="@+id/mail_login"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundcorner"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="15dp"
+            android:textColor="#1C1B1B"
+            android:textColorHint="#191818"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+           android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/roundcorner"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColor="#1C1B1B"
+            android:textColorHint="#1C1B1B"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#92D888"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/sign_in"
+            android:textColor="#121111"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/signuppage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_an_account_sign_up"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</RelativeLayout>
+```
 
 
 
