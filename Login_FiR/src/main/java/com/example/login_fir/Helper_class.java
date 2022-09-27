@@ -1,8 +1,14 @@
 package com.example.login_fir;
 
+
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 public class Helper_class{
 
-   public static int login_value=1;
+  private static String Sign_in_Auth;
   private static String Altermessage_Email;
   private static String AlterMessage_password;
 
@@ -14,12 +20,12 @@ public class Helper_class{
         Altermessage_Email = altermessage_Email;
     }
 
-    public static int getLogin_value() {
-        return login_value;
+    public static String getSign_in_Auth() {
+        return Sign_in_Auth;
     }
 
-    public static void setLogin_value(int login_value) {
-        Helper_class.login_value = login_value;
+    public static void setSign_in_Auth(String sign_in_Auth) {
+        Sign_in_Auth = sign_in_Auth;
     }
 
     public static String getAlterMessage_password() {
@@ -29,4 +35,6 @@ public class Helper_class{
     public static void setAlterMessage_password(String alterMessage_password) {
         AlterMessage_password = alterMessage_password;
     }
+
+
 }
