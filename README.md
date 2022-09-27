@@ -1,5 +1,5 @@
 
-# Firebase login Adapter
+# Firebase Authentication
 
 [![](https://jitpack.io/v/L1F20BSCS0169/FiR_login_adapter.svg)](https://jitpack.io/#L1F20BSCS0169/FiR_login_adapter)
 
